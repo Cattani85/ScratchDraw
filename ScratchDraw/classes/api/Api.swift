@@ -26,7 +26,7 @@ class Api: ObservableObject {
         return self.call(for: "version?code=\(code)", method: "GET", parameters: nil)
                     .decode(type: Responses.Activation.self, decoder: JSONDecoder())
                     .map { response  in
-                        if Double(response.ios ?? "") ?? 0.0 > 6.1 {
+                        if (response.ios ?? "").versionCompare("6.1") == .orderedDescending {
                             return .success(true)
                         }
                         else {
