@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF33BB912A02497400B9D976 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF33BB902A02497400B9D976 /* HomeView.swift */; };
+		DF33BB942A024B3000B9D976 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF33BB932A024B3000B9D976 /* ColorExtension.swift */; };
+		DF33BB962A024D2600B9D976 /* Draw.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF33BB952A024D2600B9D976 /* Draw.swift */; };
+		DF33BB982A0250FD00B9D976 /* WipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF33BB972A0250FD00B9D976 /* WipeView.swift */; };
+		DF33BB9A2A02511800B9D976 /* ActivationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF33BB992A02511800B9D976 /* ActivationView.swift */; };
+		DF33BBA02A025DA200B9D976 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF33BB9F2A025DA200B9D976 /* Api.swift */; };
+		DF33BBA22A025E0100B9D976 /* Responses.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF33BBA12A025E0100B9D976 /* Responses.swift */; };
+		DF33BBA52A025E4300B9D976 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF33BBA42A025E4300B9D976 /* Constants.swift */; };
+		DF33BBA72A02690700B9D976 /* DrawTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF33BBA62A02690700B9D976 /* DrawTests.swift */; };
+		DF8364D02A0244F000275F02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF8364CF2A0244F000275F02 /* Assets.xcassets */; };
+		DF8364F92A02458400275F02 /* ScratchDrawApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8364F72A02458400275F02 /* ScratchDrawApp.swift */; };
+		DFAB0DC32A0270FB00AB5AAD /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAB0DC22A0270FB00AB5AAD /* ButtonView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF8364D92A0244F000275F02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF8364C02A0244EE00275F02 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF8364C72A0244EE00275F02;
+			remoteInfo = ScratchDraw;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DF33BB902A02497400B9D976 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		DF33BB932A024B3000B9D976 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		DF33BB952A024D2600B9D976 /* Draw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Draw.swift; sourceTree = "<group>"; };
+		DF33BB972A0250FD00B9D976 /* WipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WipeView.swift; sourceTree = "<group>"; };
+		DF33BB992A02511800B9D976 /* ActivationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivationView.swift; sourceTree = "<group>"; };
+		DF33BB9F2A025DA200B9D976 /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
+		DF33BBA12A025E0100B9D976 /* Responses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Responses.swift; sourceTree = "<group>"; };
+		DF33BBA42A025E4300B9D976 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		DF33BBA62A02690700B9D976 /* DrawTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawTests.swift; sourceTree = "<group>"; };
+		DF8364C82A0244EE00275F02 /* ScratchDraw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScratchDraw.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF8364CF2A0244F000275F02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF8364D82A0244F000275F02 /* ScratchDrawTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScratchDrawTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF8364F72A02458400275F02 /* ScratchDrawApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScratchDrawApp.swift; sourceTree = "<group>"; };
+		DFAB0DC22A0270FB00AB5AAD /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF8364C52A0244EE00275F02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF8364D52A0244F000275F02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF33BB8E2A02494D00B9D976 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				DF33BB952A024D2600B9D976 /* Draw.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		DF33BB8F2A02495F00B9D976 /* gui */ = {
+			isa = PBXGroup;
+			children = (
+				DFAB0DC12A0270E400AB5AAD /* button */,
+				DF33BB902A02497400B9D976 /* HomeView.swift */,
+				DF33BB972A0250FD00B9D976 /* WipeView.swift */,
+				DF33BB992A02511800B9D976 /* ActivationView.swift */,
+			);
+			path = gui;
+			sourceTree = "<group>";
+		};
+		DF33BB922A024B1E00B9D976 /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DF33BB932A024B3000B9D976 /* ColorExtension.swift */,
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
+		DF33BB9E2A025D8E00B9D976 /* api */ = {
+			isa = PBXGroup;
+			children = (
+				DF33BB9F2A025DA200B9D976 /* Api.swift */,
+				DF33BBA12A025E0100B9D976 /* Responses.swift */,
+			);
+			path = api;
+			sourceTree = "<group>";
+		};
+		DF33BBA32A025E3600B9D976 /* constants */ = {
+			isa = PBXGroup;
+			children = (
+				DF33BBA42A025E4300B9D976 /* Constants.swift */,
+			);
+			path = constants;
+			sourceTree = "<group>";
+		};
+		DF8364BF2A0244EE00275F02 = {
+			isa = PBXGroup;
+			children = (
+				DF8364CA2A0244EE00275F02 /* ScratchDraw */,
+				DF8364DB2A0244F000275F02 /* ScratchDrawTests */,
+				DF8364C92A0244EE00275F02 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF8364C92A0244EE00275F02 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF8364C82A0244EE00275F02 /* ScratchDraw.app */,
+				DF8364D82A0244F000275F02 /* ScratchDrawTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF8364CA2A0244EE00275F02 /* ScratchDraw */ = {
+			isa = PBXGroup;
+			children = (
+				DF8364CF2A0244F000275F02 /* Assets.xcassets */,
+				DF8364F62A02458400275F02 /* classes */,
+				DF8364F52A02458400275F02 /* others */,
+			);
+			path = ScratchDraw;
+			sourceTree = "<group>";
+		};
+		DF8364DB2A0244F000275F02 /* ScratchDrawTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF33BBA62A02690700B9D976 /* DrawTests.swift */,
+			);
+			path = ScratchDrawTests;
+			sourceTree = "<group>";
+		};
+		DF8364F52A02458400275F02 /* others */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = others;
+			sourceTree = "<group>";
+		};
+		DF8364F62A02458400275F02 /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				DF33BBA32A025E3600B9D976 /* constants */,
+				DF33BB922A024B1E00B9D976 /* extensions */,
+				DF33BB8E2A02494D00B9D976 /* model */,
+				DF33BB9E2A025D8E00B9D976 /* api */,
+				DF33BB8F2A02495F00B9D976 /* gui */,
+				DF8364F72A02458400275F02 /* ScratchDrawApp.swift */,
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
+		DFAB0DC12A0270E400AB5AAD /* button */ = {
+			isa = PBXGroup;
+			children = (
+				DFAB0DC22A0270FB00AB5AAD /* ButtonView.swift */,
+			);
+			path = button;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF8364C72A0244EE00275F02 /* ScratchDraw */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF8364EC2A0244F000275F02 /* Build configuration list for PBXNativeTarget "ScratchDraw" */;
+			buildPhases = (
+				DF8364C42A0244EE00275F02 /* Sources */,
+				DF8364C52A0244EE00275F02 /* Frameworks */,
+				DF8364C62A0244EE00275F02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScratchDraw;
+			productName = ScratchDraw;
+			productReference = DF8364C82A0244EE00275F02 /* ScratchDraw.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF8364D72A0244F000275F02 /* ScratchDrawTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF8364EF2A0244F000275F02 /* Build configuration list for PBXNativeTarget "ScratchDrawTests" */;
+			buildPhases = (
+				DF8364D42A0244F000275F02 /* Sources */,
+				DF8364D52A0244F000275F02 /* Frameworks */,
+				DF8364D62A0244F000275F02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF8364DA2A0244F000275F02 /* PBXTargetDependency */,
+			);
+			name = ScratchDrawTests;
+			productName = ScratchDrawTests;
+			productReference = DF8364D82A0244F000275F02 /* ScratchDrawTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF8364C02A0244EE00275F02 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					DF8364C72A0244EE00275F02 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					DF8364D72A0244F000275F02 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = DF8364C72A0244EE00275F02;
+					};
+				};
+			};
+			buildConfigurationList = DF8364C32A0244EE00275F02 /* Build configuration list for PBXProject "ScratchDraw" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF8364BF2A0244EE00275F02;
+			productRefGroup = DF8364C92A0244EE00275F02 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF8364C72A0244EE00275F02 /* ScratchDraw */,
+				DF8364D72A0244F000275F02 /* ScratchDrawTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF8364C62A0244EE00275F02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF8364D02A0244F000275F02 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF8364D62A0244F000275F02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF8364C42A0244EE00275F02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF33BB9A2A02511800B9D976 /* ActivationView.swift in Sources */,
+				DF33BB942A024B3000B9D976 /* ColorExtension.swift in Sources */,
+				DF33BB982A0250FD00B9D976 /* WipeView.swift in Sources */,
+				DF33BB912A02497400B9D976 /* HomeView.swift in Sources */,
+				DF33BBA22A025E0100B9D976 /* Responses.swift in Sources */,
+				DFAB0DC32A0270FB00AB5AAD /* ButtonView.swift in Sources */,
+				DF8364F92A02458400275F02 /* ScratchDrawApp.swift in Sources */,
+				DF33BBA02A025DA200B9D976 /* Api.swift in Sources */,
+				DF33BB962A024D2600B9D976 /* Draw.swift in Sources */,
+				DF33BBA52A025E4300B9D976 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF8364D42A0244F000275F02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF33BBA72A02690700B9D976 /* DrawTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF8364DA2A0244F000275F02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF8364C72A0244EE00275F02 /* ScratchDraw */;
+			targetProxy = DF8364D92A0244F000275F02 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DF8364EA2A0244F000275F02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DF8364EB2A0244F000275F02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF8364ED2A0244F000275F02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = H549FHQ2S6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ScratchDraw;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sk.cattani.ScratchDraw-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		DF8364EE2A0244F000275F02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = H549FHQ2S6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ScratchDraw;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sk.cattani.ScratchDraw-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		DF8364F02A0244F000275F02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H549FHQ2S6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sk.cattani.ScratchDrawTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScratchDraw.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ScratchDraw";
+			};
+			name = Debug;
+		};
+		DF8364F12A0244F000275F02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H549FHQ2S6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sk.cattani.ScratchDrawTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScratchDraw.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ScratchDraw";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF8364C32A0244EE00275F02 /* Build configuration list for PBXProject "ScratchDraw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF8364EA2A0244F000275F02 /* Debug */,
+				DF8364EB2A0244F000275F02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF8364EC2A0244F000275F02 /* Build configuration list for PBXNativeTarget "ScratchDraw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF8364ED2A0244F000275F02 /* Debug */,
+				DF8364EE2A0244F000275F02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF8364EF2A0244F000275F02 /* Build configuration list for PBXNativeTarget "ScratchDrawTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF8364F02A0244F000275F02 /* Debug */,
+				DF8364F12A0244F000275F02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF8364C02A0244EE00275F02 /* Project object */;
+}
